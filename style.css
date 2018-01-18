@@ -1,0 +1,25 @@
+body {
+	background: linear-gradient(#eaf651, #fcfeed, #eaf651);
+}
+
+.container {
+	text-align: center;
+	max-width: 20%;
+	margin: 0 auto;
+	border-radius: 4px;
+	margin-top: 20px;
+	padding: 20px;
+	border: 1px solid #2a3a41 ;
+	box-shadow: 10px 10px 5px #2a3a41; 
+	transform: rotate(5deg);
+}
+
+.part {
+	margin-top: 20px;
+  	font-style: italic;
+  	color: #745;
+  }
+
+
+
+/*# sourceMappingURL=style.css.map */
