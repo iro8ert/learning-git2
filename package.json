@@ -1,0 +1,26 @@
+{
+  "name": "learning-git2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "globstar": "^1.0.0"
+  },
+  "scripts": {
+    "test": "npm run test:html",
+    "test:html": "globstar nu-html-checker *.html",
+    "init-project": "mkdirp sass css vendor images js && touch README.md index.html sass/style.scss js/script.js && curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iro8ert/learning-git2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iro8ert/learning-git2/issues"
+  },
+  "homepage": "https://github.com/iro8ert/learning-git2#readme"
+}
